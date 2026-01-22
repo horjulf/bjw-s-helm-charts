@@ -126,7 +126,7 @@ jobs:
       # Package Helm chart
       # ----------------------------
       - name: Dereference JSON schema before packaging
-        uses: bjw-s-labs/helm-charts-actions/dereference-json-schema@dfc1ae25afb1fc0611e4f646e42743d434b6ddd0
+        uses: bjw-s-labs/helm-charts-actions/dereference-json-schema@70e6ce8989226e28049d24baaa71cffc6ca84626
         with:
           schemaFile: "src/charts/${{ inputs.chart }}/values.schema.json"
           outputFile: "src/charts/${{ inputs.chart }}/values.schema.json"
