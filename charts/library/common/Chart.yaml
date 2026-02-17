@@ -25,3 +25,6 @@ annotations:
     - kind: fixed
       description: |-
         Fix edge case in volumeMounts where default persistence type was not properly set
+    - kind: fixed
+      description: |-
+        Fix whitespace handling in Route backendRefs
