@@ -38,6 +38,6 @@ Returns the value for labels
   {{- end -}}
 
   {{- if not (empty $labels) -}}
-    {{- $labels | toYaml -}}
+    {{- $labels | toYaml | tpl $rootContext -}}
   {{- end -}}
 {{- end -}}
