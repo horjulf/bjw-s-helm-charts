@@ -881,4 +881,4 @@ rbac:
   #       - kind: Group
   #         name: oidc:/test-user
   #       - kind: User
-  #         name: username
+  #         name: usernam
