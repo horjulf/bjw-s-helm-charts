@@ -85,6 +85,6 @@ Returns the value for annotations
   {{- end -}}
 
   {{- if not (empty $annotations) -}}
-    {{- $annotations | toYaml | tpl $rootContext -}}
+    {{- tpl (toYaml $annotations) $rootContext -}}
   {{- end -}}
 {{- end -}}

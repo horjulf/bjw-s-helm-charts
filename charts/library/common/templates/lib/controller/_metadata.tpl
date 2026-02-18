@@ -7,7 +7,7 @@
     )
   -}}
   {{- with $labels -}}
-    {{- toYaml . | tpl $ -}}
+    {{- tpl (toYaml .) $ -}}
   {{- end -}}
 {{- end -}}
 
@@ -20,6 +20,6 @@
     )
   -}}
   {{- with $annotations -}}
-    {{- toYaml . | tpl $ -}}
+    {{- tpl (toYaml .) $ -}}
   {{- end -}}
 {{- end -}}
