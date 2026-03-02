@@ -16,6 +16,9 @@ sources:
   - https://github.com/bjw-s-labs/helm-charts
 annotations:
   artifacthub.io/changes: |-
+    - kind: added
+      description: |-
+        Allow creating HorizontalPodAutoscaler objects for controllers.
     - kind: changed
       description: |-
         Minimum required Kubernetes version has been increased to 1.31
